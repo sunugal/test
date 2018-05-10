@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Ma page</title>
+  </head>
+
+  <body>
+    <h1>Les Produis</h1>
+
+    <p>Voici la liste de mes Produits</p>
+
+<ul>
+
+{% for produit in produits %}
+
+<li> {{ produit }} </li>
+
+{% endfor %}
+
+</ul>
+
+<h2>Les articles</h2>
+
+<p>Voici la liste de mes articles</p>
+
+<ul>
+
+{% for article in Articles %}
+
+<li> {{ aricle.nom }} </li>
+
+{% endfor %}
+
+</ul>
+
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
